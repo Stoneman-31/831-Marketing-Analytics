@@ -27,7 +27,7 @@ Hypertunning method used:
 
 
 
-Business Question
+# Business Question
 
 Question 1: In Kiran’s meeting with Parag Chitalia what was the overarching problem they were looking to address?  
 
