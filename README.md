@@ -8,13 +8,13 @@ For example, for the dataset, we could only collect final purchase result as buy
 
 
 The techniques used at data cleaning:
-1. drop columns where data is missing >70%
-2. fill the rest missing values with .fillna(value=0) or fillna('Unknown)
+1. Drop columns where data is missing >70%
+2. Fill the rest missing values with .fillna(value=0) or fillna('Unknown)
 3. Replace 'null' with 'Unknown', so all the missing values are representated in same symbol "Unknown", easier for later process. 
 
 The techniques used at feature engineering:
-1. use get_dummies to turn string value to numeric values
-2. obtain mean value of 'annualsales' and created a new feature base off that
+1. Use get_dummies to turn string value to numeric values
+2. Obtain mean value of 'annualsales' and created a new feature base off that
 3. Principle Component Analysis (PCA)
 
 Model used:
