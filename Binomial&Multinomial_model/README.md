@@ -29,7 +29,7 @@ Hypertunning method used:
 
 # Business Question
 
-Question 1: In Kiran’s meeting with Parag Chitalia what was the overarching problem they were looking to address?  
+## Question 1: In Kiran’s meeting with Parag Chitalia what was the overarching problem they were looking to address?  
 
  
 
@@ -41,7 +41,7 @@ Once they were able to determine the “Propensity to Respond” model, they wou
 
  
 
-Question 2: Briefly explain the type of online and offline data available to Kiran’s team?  
+## Question 2: Briefly explain the type of online and offline data available to Kiran’s team?  
 
 The types of data that Kiran had available were online data such as detailed product and event wise data (such as web analytics – page views, unique users, webinar page views et al), referral data, search engine (product searches made on Google for example), UX data such as browser data points, and marketing channel data.  
 
@@ -59,13 +59,13 @@ An area of concern was the imbalance of these datasets as the multi-class target
 
  
 
-Question 3: How is the propensity to respond model different from the traditional propensity to buy model? 
+## Question 3: How is the propensity to respond model different from the traditional propensity to buy model? 
 
 The propensity to respond model is different than a traditional propensity to buy model because the former is a multinomial classification problem versus the traditional binomial classification problem of a “yes” or “no” when trying to classify if the target is looking to buy. Additionally, a propensity to buy model is applied if we want to identify buying propensity. However, here we would need a propensity to respond, as target customers may be at different stages of buying and propensity to respond would be more effective here. Additionally, propensity to buy will be affected by different decision-makers from the customer organisation. Hence, building a propensity to buy may not lead to desirable results here. 
 
  
 
-Question 4: How does B2B personalized marketing differ from B2C marketing? 
+## Question 4: How does B2B personalized marketing differ from B2C marketing? 
 
 B2B marketing is different to B2C marketing due to the complexity of the relationship between winning a contract with an organization versus an individual. With a larger company/organization, there may be many individuals involved in the decision-making process. This could include program sponsors, project managers, analysts, end users etc. With this comes differing responses to marketing efforts as individuals may be more receptive towards one campaign versus another.  
 
@@ -75,7 +75,7 @@ Finally, as a team of individuals evaluates a product, each individual may be at
 
  
 
-Question 5: VMW has identified more than 600 predictor variables. Do you think that techniques such as logistic regression can be applied when the number of variables is large? What variable reduction techniques can be used to make the model more efficient? 
+## Question 5: VMW has identified more than 600 predictor variables. Do you think that techniques such as logistic regression can be applied when the number of variables is large? What variable reduction techniques can be used to make the model more efficient? 
 
 Techniques such as principal component analysis (PCA) could help to reduce the number of variables to make the model more efficient. Further, imputation could help where a feature that is deemed of some significance has missing data. Additionally, ensuring that redundant data, testing for heteroskedasticity and collinearity would be additional things you could do.  
 
@@ -83,7 +83,7 @@ Due to the imbalance of the dataset (predictor variables) and a lot of classific
 
  
 
-Question 6: The data is also highly imbalanced; What problems do we face when classes are not adequately represented and how can these be mitigated? Are certain classification techniques better suited to handle imbalanced data than others? 
+## Question 6: The data is also highly imbalanced; What problems do we face when classes are not adequately represented and how can these be mitigated? Are certain classification techniques better suited to handle imbalanced data than others? 
 
 When a dataset is imbalanced, one must consider statistical significance with respect to how the data is distributed via certain classes of data. It may be wise to consider grouping (binning) certain classes where data may be sparse. Further, hot encoding and scaling would also lend well to ensure that the dataset could be handled by the random forest model we have built. 
 
