@@ -19,3 +19,5 @@ none， data does not contain missing value or outliers.
 1. Accuracy
 2. AUC
 3. F1 SCORE
+
+## In the end, we cluster the customers into 4 differnet groups and more detailed business impact result in the ppt file. 
