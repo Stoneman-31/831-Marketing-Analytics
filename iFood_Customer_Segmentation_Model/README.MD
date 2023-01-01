@@ -1,7 +1,7 @@
 # iFood
 
 ### This project is to practice the skills of customer segmentation modeling. 
-The data is from a online shopping website from Brazil. We used customer demographic info and shopping info to design customer cluster snapshot with K-means model. 
+The data is from a online shopping website from Brazil. We used customer demographic info and shopping info to design customer cluster snapshot with K-means & RandomForest model. 
 
 This project mainly used FRM (frequency, rerency and monetory ) model to evalue customer value. 
 
